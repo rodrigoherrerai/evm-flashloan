@@ -1,0 +1,427 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "FLASHLOAN_PREMIUM_TOTAL",
+      "outputs": [
+        {
+          "internalType": "uint128",
+          "name": "",
+          "type": "uint128"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "receiverAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "asset",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "params",
+          "type": "bytes"
+        },
+        {
+          "internalType": "uint16",
+          "name": "referralCode",
+          "type": "uint16"
+        }
+      ],
+      "name": "flashLoanSimple",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "FLASHLOAN_PREMIUM_TOTAL()": "074b2e43",
+    "flashLoanSimple(address,address,uint256,bytes,uint16)": "42b0b77c"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"FLASHLOAN_PREMIUM_TOTAL\",\"outputs\":[{\"internalType\":\"uint128\",\"name\":\"\",\"type\":\"uint128\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"receiverAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"asset\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"params\",\"type\":\"bytes\"},{\"internalType\":\"uint16\",\"name\":\"referralCode\",\"type\":\"uint16\"}],\"name\":\"flashLoanSimple\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/AaveInterface.sol\":\"AaveInterface\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/interfaces/AaveInterface.sol\":{\"keccak256\":\"0x54ecfec59bbc3afa2b6c6e91d3cb923877baeb250be0fb9d0395ee9ec44c734e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://72a11197913ae9250d58a88b81eedd549a23791ce036f897776c10f1956755bb\",\"dweb:/ipfs/QmXaUycyJDmLfKMPPpCJXSgGJkHQV3xTAJ2Kp7XqDheU4j\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "FLASHLOAN_PREMIUM_TOTAL",
+          "outputs": [
+            {
+              "internalType": "uint128",
+              "name": "",
+              "type": "uint128"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "receiverAddress",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "asset",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes",
+              "name": "params",
+              "type": "bytes"
+            },
+            {
+              "internalType": "uint16",
+              "name": "referralCode",
+              "type": "uint16"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "flashLoanSimple"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/AaveInterface.sol": "AaveInterface"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/AaveInterface.sol": {
+        "keccak256": "0x54ecfec59bbc3afa2b6c6e91d3cb923877baeb250be0fb9d0395ee9ec44c734e",
+        "urls": [
+          "bzz-raw://72a11197913ae9250d58a88b81eedd549a23791ce036f897776c10f1956755bb",
+          "dweb:/ipfs/QmXaUycyJDmLfKMPPpCJXSgGJkHQV3xTAJ2Kp7XqDheU4j"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/AaveInterface.sol",
+    "id": 25529,
+    "exportedSymbols": {
+      "AaveInterface": [
+        25528
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:313:15",
+    "nodes": [
+      {
+        "id": 25509,
+        "nodeType": "PragmaDirective",
+        "src": "32:25:15",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 25528,
+        "nodeType": "ContractDefinition",
+        "src": "59:285:15",
+        "nodes": [
+          {
+            "id": 25522,
+            "nodeType": "FunctionDefinition",
+            "src": "89:180:15",
+            "nodes": [],
+            "functionSelector": "42b0b77c",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "flashLoanSimple",
+            "nameLocation": "98:15:15",
+            "parameters": {
+              "id": 25520,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25511,
+                  "mutability": "mutable",
+                  "name": "receiverAddress",
+                  "nameLocation": "131:15:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25522,
+                  "src": "123:23:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 25510,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "123:7:15",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25513,
+                  "mutability": "mutable",
+                  "name": "asset",
+                  "nameLocation": "164:5:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25522,
+                  "src": "156:13:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 25512,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "156:7:15",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25515,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "187:6:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25522,
+                  "src": "179:14:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 25514,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "179:7:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25517,
+                  "mutability": "mutable",
+                  "name": "params",
+                  "nameLocation": "218:6:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25522,
+                  "src": "203:21:15",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 25516,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "203:5:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25519,
+                  "mutability": "mutable",
+                  "name": "referralCode",
+                  "nameLocation": "241:12:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25522,
+                  "src": "234:19:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  },
+                  "typeName": {
+                    "id": 25518,
+                    "name": "uint16",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "234:6:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "113:146:15"
+            },
+            "returnParameters": {
+              "id": 25521,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "268:0:15"
+            },
+            "scope": 25528,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 25527,
+            "nodeType": "FunctionDefinition",
+            "src": "275:67:15",
+            "nodes": [],
+            "functionSelector": "074b2e43",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "FLASHLOAN_PREMIUM_TOTAL",
+            "nameLocation": "284:23:15",
+            "parameters": {
+              "id": 25523,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "307:2:15"
+            },
+            "returnParameters": {
+              "id": 25526,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25525,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25527,
+                  "src": "333:7:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint128",
+                    "typeString": "uint128"
+                  },
+                  "typeName": {
+                    "id": 25524,
+                    "name": "uint128",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "333:7:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint128",
+                      "typeString": "uint128"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "332:9:15"
+            },
+            "scope": 25528,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "AaveInterface",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          25528
+        ],
+        "name": "AaveInterface",
+        "nameLocation": "69:13:15",
+        "scope": 25529,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 15
+}
