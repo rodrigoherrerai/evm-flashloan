@@ -11,7 +11,7 @@ import {ERC20Interface} from "../src/FlashLoan.sol";
 contract FlashLoanTest is Test, TestUtils {
     FlashLoan public flashLoan;
 
-    // optimism.
+    // Arbitrum.
     address public constant WETH = 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1;
 
     uint256 public constant INITIAL_WETH = 5 ether;
